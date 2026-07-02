@@ -16,12 +16,12 @@
                 <span>Bee Group</span>
             </div>
             <ul class="nav-menu" id="navMenu">
-                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
-                <li><a href="#about"><i class="fas fa-info-circle"></i> Tentang</a></li>
-                <li><a href="#services"><i class="fas fa-briefcase"></i> Layanan</a></li>
-                <li><a href="#features"><i class="fas fa-star"></i> Fitur</a></li>
-                <li><a href="#testimonials"><i class="fas fa-comments"></i> Testimoni</a></li>
-                <li><a href="#contact"><i class="fas fa-envelope"></i> Kontak</a></li>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> Tentang</a></li>
+                <li><a href="services.html"><i class="fas fa-briefcase"></i> Layanan</a></li>
+                <li><a href="features.html"><i class="fas fa-star"></i> Fitur</a></li>
+                <li><a href="testimonials.html"><i class="fas fa-comments"></i> Testimoni</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Kontak</a></li>
                 <li><a href="#" class="lang-toggle" onclick="toggleLanguage()">EN</a></li>
             </ul>
             <div class="hamburger" id="hamburger">
@@ -42,8 +42,8 @@
                 </div>
                 <p data-en="Build wealth while protecting the planet. Expert financial guidance for sustainable growth." data-id="Bangun kekayaan sambil melindungi planet. Panduan keuangan ahli untuk pertumbuhan berkelanjutan.">Bangun kekayaan sambil melindungi planet. Panduan keuangan ahli untuk pertumbuhan berkelanjutan.</p>
                 <div class="cta-buttons">
-                    <button class="btn btn-primary" onclick="scrollToSection('contact')" data-en="Get Started" data-id="Mulai Sekarang">Mulai Sekarang</button>
-                    <button class="btn btn-secondary" onclick="scrollToSection('about')" data-en="Learn More" data-id="Pelajari Lebih">Pelajari Lebih</button>
+                    <a href="contact.html" class="btn btn-primary" data-en="Get Started" data-id="Mulai Sekarang">Mulai Sekarang</a>
+                    <a href="about.html" class="btn btn-secondary" data-en="Learn More" data-id="Pelajari Lebih">Pelajari Lebih</a>
                 </div>
             </div>
             <div class="hero-image">
@@ -54,171 +54,80 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="about" id="about">
+    <!-- Features Preview Section -->
+    <section class="features-preview">
         <div class="container">
             <div class="section-header-center">
-                <i class="fas fa-info-circle section-icon"></i>
-                <h2 data-en="About Bee Group" data-id="Tentang Bee Group">Tentang Bee Group</h2>
+                <i class="fas fa-rocket section-icon"></i>
+                <h2 data-en="Why Bee Group?" data-id="Mengapa Bee Group?">Mengapa Bee Group?</h2>
             </div>
-            <div class="about-content">
-                <div class="about-text">
-                    <p data-en="Bee Group is a leading sustainable investment and finance management firm dedicated to creating positive impact while generating returns for our clients." data-id="Bee Group adalah perusahaan manajemen investasi dan keuangan berkelanjutan terkemuka yang berdedikasi untuk menciptakan dampak positif sambil menghasilkan keuntungan bagi klien kami.">Bee Group adalah perusahaan manajemen investasi dan keuangan berkelanjutan terkemuka yang berdedikasi untuk menciptakan dampak positif sambil menghasilkan keuntungan bagi klien kami.</p>
-                    <p data-en="With over 10 years of experience in sustainable finance, we help individuals and businesses grow their wealth responsibly." data-id="Dengan pengalaman lebih dari 10 tahun di bidang keuangan berkelanjutan, kami membantu individu dan bisnis mengembangkan kekayaan mereka secara bertanggung jawab.">Dengan pengalaman lebih dari 10 tahun di bidang keuangan berkelanjutan, kami membantu individu dan bisnis mengembangkan kekayaan mereka secara bertanggung jawab.</p>
+            <div class="features-preview-grid">
+                <div class="feature-preview-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3 data-en="Secure & Trusted" data-id="Aman & Terpercaya">Aman & Terpercaya</h3>
+                    <p data-en="Fully regulated and certified" data-id="Sepenuhnya diatur dan bersertifikat">Sepenuhnya diatur dan bersertifikat</p>
                 </div>
-                <div class="about-stats">
-                    <div class="stat-card">
-                        <div class="stat-icon">
-                            <i class="fas fa-dollar-sign"></i>
-                        </div>
-                        <h3>$5B+</h3>
-                        <p data-en="Assets Managed" data-id="Aset yang Dikelola">Aset yang Dikelola</p>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-icon">
-                            <i class="fas fa-users"></i>
-                        </div>
-                        <h3>10K+</h3>
-                        <p data-en="Happy Clients" data-id="Klien Puas">Klien Puas</p>
-                    </div>
-                    <div class="stat-card">
-                        <div class="stat-icon">
-                            <i class="fas fa-award"></i>
-                        </div>
-                        <h3>15+</h3>
-                        <p data-en="Years Experience" data-id="Tahun Pengalaman">Tahun Pengalaman</p>
-                    </div>
+                <div class="feature-preview-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3 data-en="Proven Results" data-id="Hasil Terbukti">Hasil Terbukti</h3>
+                    <p data-en="15+ years of excellence" data-id="15+ tahun keunggulan">15+ tahun keunggulan</p>
                 </div>
+                <div class="feature-preview-card">
+                    <i class="fas fa-leaf"></i>
+                    <h3 data-en="Sustainable" data-id="Berkelanjutan">Berkelanjutan</h3>
+                    <p data-en="Green investments" data-id="Investasi hijau">Investasi hijau</p>
+                </div>
+                <div class="feature-preview-card">
+                    <i class="fas fa-users"></i>
+                    <h3 data-en="Expert Team" data-id="Tim Ahli">Tim Ahli</h3>
+                    <p data-en="Professional advisors" data-id="Penasihat profesional">Penasihat profesional</p>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="features.html" class="btn btn-primary" data-en="Explore All Features" data-id="Lihat Semua Fitur">Lihat Semua Fitur</a>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section class="services" id="services">
+    <!-- Services Preview Section -->
+    <section class="services-preview">
         <div class="container">
             <div class="section-header-center">
                 <i class="fas fa-briefcase section-icon"></i>
                 <h2 data-en="Our Services" data-id="Layanan Kami">Layanan Kami</h2>
             </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-piggy-bank"></i>
-                    </div>
+            <div class="services-preview-grid">
+                <div class="service-preview-card">
+                    <i class="fas fa-piggy-bank"></i>
                     <h3 data-en="Investment Management" data-id="Manajemen Investasi">Manajemen Investasi</h3>
-                    <p data-en="Personalized investment strategies tailored to your goals and risk tolerance." data-id="Strategi investasi yang dipersonalisasi sesuai dengan tujuan dan toleransi risiko Anda.">Strategi investasi yang dipersonalisasi sesuai dengan tujuan dan toleransi risiko Anda.</p>
+                    <p data-en="Personalized strategies" data-id="Strategi yang dipersonalisasi">Strategi yang dipersonalisasi</p>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-trending-up"></i>
-                    </div>
+                <div class="service-preview-card">
+                    <i class="fas fa-trending-up"></i>
                     <h3 data-en="Trading & Portfolio" data-id="Trading & Portofolio">Trading & Portofolio</h3>
-                    <p data-en="Advanced trading tools and portfolio optimization for maximum returns." data-id="Alat trading canggih dan optimisasi portofolio untuk hasil maksimal.">Alat trading canggih dan optimisasi portofolio untuk hasil maksimal.</p>
+                    <p data-en="Advanced tools" data-id="Alat canggih">Alat canggih</p>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-globe"></i>
-                    </div>
+                <div class="service-preview-card">
+                    <i class="fas fa-globe"></i>
                     <h3 data-en="Sustainable Finance" data-id="Keuangan Berkelanjutan">Keuangan Berkelanjutan</h3>
-                    <p data-en="Green investments that align with environmental and social values." data-id="Investasi hijau yang selaras dengan nilai lingkungan dan sosial.">Investasi hijau yang selaras dengan nilai lingkungan dan sosial.</p>
+                    <p data-en="Green investments" data-id="Investasi hijau">Investasi hijau</p>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-handshake"></i>
-                    </div>
-                    <h3 data-en="Financial Planning" data-id="Perencanaan Keuangan">Perencanaan Keuangan</h3>
-                    <p data-en="Comprehensive financial planning for long-term wealth building." data-id="Perencanaan keuangan komprehensif untuk membangun kekayaan jangka panjang.">Perencanaan keuangan komprehensif untuk membangun kekayaan jangka panjang.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h3 data-en="Risk Management" data-id="Manajemen Risiko">Manajemen Risiko</h3>
-                    <p data-en="Protect your investments with our comprehensive risk mitigation strategies." data-id="Lindungi investasi Anda dengan strategi mitigasi risiko komprehensif kami.">Lindungi investasi Anda dengan strategi mitigasi risiko komprehensif kami.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-headset"></i>
-                    </div>
-                    <h3 data-en="24/7 Support" data-id="Dukungan 24/7">Dukungan 24/7</h3>
-                    <p data-en="Dedicated support team ready to assist you anytime, anywhere." data-id="Tim dukungan khusus siap membantu Anda kapan saja, di mana saja.">Tim dukungan khusus siap membantu Anda kapan saja, di mana saja.</p>
-                </div>
+            </div>
+            <div class="text-center">
+                <a href="services.html" class="btn btn-primary" data-en="View All Services" data-id="Lihat Semua Layanan">Lihat Semua Layanan</a>
             </div>
         </div>
     </section>
 
-    <!-- Features Section -->
-    <section class="features" id="features">
-        <div class="container">
-            <div class="section-header-center">
-                <i class="fas fa-star section-icon"></i>
-                <h2 data-en="Why Choose Bee Group?" data-id="Mengapa Memilih Bee Group?">Mengapa Memilih Bee Group?</h2>
-            </div>
-            <div class="features-grid">
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-lock"></i>
-                    </div>
-                    <h3 data-en="Secure & Certified" data-id="Aman & Bersertifikat">Aman & Bersertifikat</h3>
-                    <p data-en="All operations are fully regulated and certified by international authorities." data-id="Semua operasi sepenuhnya diatur dan disertifikasi oleh otoritas internasional.">Semua operasi sepenuhnya diatur dan disertifikasi oleh otoritas internasional.</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-users"></i>
-                    </div>
-                    <h3 data-en="Expert Team" data-id="Tim Ahli">Tim Ahli</h3>
-                    <p data-en="Our team consists of experienced financial experts and analysts." data-id="Tim kami terdiri dari ahli keuangan dan analis berpengalaman.">Tim kami terdiri dari ahli keuangan dan analis berpengalaman.</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-mobile-alt"></i>
-                    </div>
-                    <h3 data-en="Mobile App" data-id="Aplikasi Mobile">Aplikasi Mobile</h3>
-                    <p data-en="Manage your investments on the go with our intuitive mobile app." data-id="Kelola investasi Anda saat bepergian dengan aplikasi mobile intuitif kami.">Kelola investasi Anda saat bepergian dengan aplikasi mobile intuitif kami.</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-leaf"></i>
-                    </div>
-                    <h3 data-en="Eco-Friendly" data-id="Ramah Lingkungan">Ramah Lingkungan</h3>
-                    <p data-en="We invest in sustainable and environmentally responsible companies." data-id="Kami berinvestasi di perusahaan yang berkelanjutan dan bertanggung jawab lingkungan.">Kami berinvestasi di perusahaan yang berkelanjutan dan bertanggung jawab lingkungan.</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <h3 data-en="Education Hub" data-id="Pusat Edukasi">Pusat Edukasi</h3>
-                    <p data-en="Access free resources and courses to improve your financial literacy." data-id="Akses sumber daya gratis dan kursus untuk meningkatkan literasi keuangan Anda.">Akses sumber daya gratis dan kursus untuk meningkatkan literasi keuangan Anda.</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-chart-pie"></i>
-                    </div>
-                    <h3 data-en="Analytics Dashboard" data-id="Dashboard Analitik">Dashboard Analitik</h3>
-                    <p data-en="Real-time analytics and insights for informed decision making." data-id="Analitik real-time dan wawasan untuk pengambilan keputusan yang tepat.">Analitik real-time dan wawasan untuk pengambilan keputusan yang tepat.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="testimonials" id="testimonials">
+    <!-- Testimonials Preview Section -->
+    <section class="testimonials-preview">
         <div class="container">
             <div class="section-header-center">
                 <i class="fas fa-comments section-icon"></i>
-                <h2 data-en="What Our Clients Say" data-id="Apa Kata Klien Kami">Apa Kata Klien Kami</h2>
+                <h2 data-en="Client Success Stories" data-id="Kisah Sukses Klien">Kisah Sukses Klien</h2>
             </div>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="testimonial-header">
-                        <div class="client-avatar">
-                            <i class="fas fa-user"></i>
-                        </div>
-                        <div>
-                            <h4>John Smith</h4>
-                            <span data-en="Entrepreneur" data-id="Pengusaha">Pengusaha</span>
-                        </div>
-                    </div>
+            <div class="testimonials-preview-grid">
+                <div class="testimonial-preview-card">
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -226,18 +135,10 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p data-en="\"Bee Group transformed my investment strategy. Highly recommended!\"" data-id="\"Bee Group mengubah strategi investasi saya. Sangat direkomendasikan!\"">\"Bee Group mengubah strategi investasi saya. Sangat direkomendasikan!\"</p>
+                    <p data-en="Bee Group transformed my investments. Highly recommended!" data-id="Bee Group mengubah investasi saya. Sangat direkomendasikan!">Bee Group mengubah investasi saya. Sangat direkomendasikan!</p>
+                    <h4>John Smith</h4>
                 </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-header">
-                        <div class="client-avatar">
-                            <i class="fas fa-user"></i>
-                        </div>
-                        <div>
-                            <h4>Sarah Johnson</h4>
-                            <span data-en="Business Manager" data-id="Manajer Bisnis">Manajer Bisnis</span>
-                        </div>
-                    </div>
+                <div class="testimonial-preview-card">
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -245,134 +146,22 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p data-en="\"Excellent service and transparent communication throughout the process.\"" data-id="\"Layanan luar biasa dan komunikasi transparan sepanjang proses.\"">\"Layanan luar biasa dan komunikasi transparan sepanjang proses.\"</p>
+                    <p data-en="Excellent service and transparent communication." data-id="Layanan luar biasa dan komunikasi transparan.">Layanan luar biasa dan komunikasi transparan.</p>
+                    <h4>Sarah Johnson</h4>
                 </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-header">
-                        <div class="client-avatar">
-                            <i class="fas fa-user"></i>
-                        </div>
-                        <div>
-                            <h4>Michael Chen</h4>
-                            <span data-en="Investor" data-id="Investor">Investor</span>
-                        </div>
-                    </div>
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p data-en="\"I love that my investments align with my environmental values.\"" data-id="\"Saya suka bahwa investasi saya sejalan dengan nilai lingkungan saya.\"">\"Saya suka bahwa investasi saya sejalan dengan nilai lingkungan saya.\"</p>
-                </div>
+            </div>
+            <div class="text-center">
+                <a href="testimonials.html" class="btn btn-primary" data-en="Read More Stories" data-id="Baca Kisah Lainnya">Baca Kisah Lainnya</a>
             </div>
         </div>
     </section>
 
-    <!-- Pricing Section -->
-    <section class="pricing" id="pricing">
+    <!-- CTA Section -->
+    <section class="cta-section">
         <div class="container">
-            <div class="section-header-center">
-                <i class="fas fa-tag section-icon"></i>
-                <h2 data-en="Our Pricing Plans" data-id="Paket Harga Kami">Paket Harga Kami</h2>
-            </div>
-            <div class="pricing-grid">
-                <div class="pricing-card">
-                    <h3 data-en="Starter" data-id="Pemula">Pemula</h3>
-                    <div class="price">
-                        <span class="currency">$</span>
-                        <span class="amount">99</span>
-                        <span class="period">/bulan</span>
-                    </div>
-                    <ul>
-                        <li><i class="fas fa-check"></i> <span data-en="Portfolio Management" data-id="Manajemen Portofolio">Manajemen Portofolio</span></li>
-                        <li><i class="fas fa-check"></i> <span data-en="Basic Analytics" data-id="Analitik Dasar">Analitik Dasar</span></li>
-                        <li><i class="fas fa-check"></i> <span data-en="Email Support" data-id="Dukungan Email">Dukungan Email</span></li>
-                        <li><i class="fas fa-times"></i> <span data-en="Dedicated Advisor" data-id="Penasihat Khusus">Penasihat Khusus</span></li>
-                    </ul>
-                    <button class="btn btn-outline" data-en="Choose Plan" data-id="Pilih Paket">Pilih Paket</button>
-                </div>
-                <div class="pricing-card popular">
-                    <span class="badge" data-en="Most Popular" data-id="Paling Populer">Paling Populer</span>
-                    <h3 data-en="Professional" data-id="Profesional">Profesional</h3>
-                    <div class="price">
-                        <span class="currency">$</span>
-                        <span class="amount">299</span>
-                        <span class="period">/bulan</span>
-                    </div>
-                    <ul>
-                        <li><i class="fas fa-check"></i> <span data-en="Advanced Portfolio" data-id="Portofolio Lanjutan">Portofolio Lanjutan</span></li>
-                        <li><i class="fas fa-check"></i> <span data-en="Real-time Analytics" data-id="Analitik Real-time">Analitik Real-time</span></li>
-                        <li><i class="fas fa-check"></i> <span data-en="Phone & Email Support" data-id="Dukungan Telepon & Email">Dukungan Telepon & Email</span></li>
-                        <li><i class="fas fa-check"></i> <span data-en="Dedicated Advisor" data-id="Penasihat Khusus">Penasihat Khusus</span></li>
-                    </ul>
-                    <button class="btn btn-primary" data-en="Choose Plan" data-id="Pilih Paket">Pilih Paket</button>
-                </div>
-                <div class="pricing-card">
-                    <h3 data-en="Enterprise" data-id="Perusahaan">Perusahaan</h3>
-                    <div class="price">
-                        <span data-en="Custom" data-id="Kustom">Kustom</span>
-                    </div>
-                    <ul>
-                        <li><i class="fas fa-check"></i> <span data-en="Full Customization" data-id="Kustomisasi Penuh">Kustomisasi Penuh</span></li>
-                        <li><i class="fas fa-check"></i> <span data-en="Premium Analytics" data-id="Analitik Premium">Analitik Premium</span></li>
-                        <li><i class="fas fa-check"></i> <span data-en="24/7 Priority Support" data-id="Dukungan Prioritas 24/7">Dukungan Prioritas 24/7</span></li>
-                        <li><i class="fas fa-check"></i> <span data-en="Personal Account Manager" data-id="Manajer Akun Pribadi">Manajer Akun Pribadi</span></li>
-                    </ul>
-                    <button class="btn btn-outline" data-en="Contact Us" data-id="Hubungi Kami">Hubungi Kami</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <div class="container">
-            <div class="section-header-center">
-                <i class="fas fa-envelope section-icon"></i>
-                <h2 data-en="Get Started Today" data-id="Mulai Hari Ini">Mulai Hari Ini</h2>
-            </div>
-            <div class="contact-content">
-                <form class="contact-form" id="contactForm">
-                    <div class="form-group">
-                        <input type="text" placeholder="Nama Lengkap" data-placeholder-id="fullname" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="Email" data-placeholder-id="email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="tel" placeholder="Nomor Telepon" data-placeholder-id="phone" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea placeholder="Pesan Anda" data-placeholder-id="message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-large" data-en="Send Message" data-id="Kirim Pesan">Kirim Pesan</button>
-                </form>
-                <div class="contact-info">
-                    <div class="info-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h4 data-en="Address" data-id="Alamat">Alamat</h4>
-                            <p>123 Finance Street, Jakarta, Indonesia</p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h4 data-en="Phone" data-id="Telepon">Telepon</h4>
-                            <p>+62 812-3456-7890</p>
-                        </div>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h4 data-en="Email" data-id="Email">Email</h4>
-                            <p>info@beegroup.com</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <h2 data-en="Ready to Start Your Investment Journey?" data-id="Siap Memulai Perjalanan Investasi Anda?">Siap Memulai Perjalanan Investasi Anda?</h2>
+            <p data-en="Join thousands of satisfied clients and grow your wealth sustainably" data-id="Bergabunglah dengan ribuan klien yang puas dan kembangkan kekayaan Anda secara berkelanjutan">Bergabunglah dengan ribuan klien yang puas dan kembangkan kekayaan Anda secara berkelanjutan</p>
+            <a href="contact.html" class="btn btn-primary btn-large" data-en="Get Started Today" data-id="Mulai Hari Ini">Mulai Hari Ini</a>
         </div>
     </section>
 
@@ -387,10 +176,10 @@
                 <div class="footer-section">
                     <h4 data-en="Quick Links" data-id="Tautan Cepat">Tautan Cepat</h4>
                     <ul>
-                        <li><a href="#about" data-en="About" data-id="Tentang">Tentang</a></li>
-                        <li><a href="#services" data-en="Services" data-id="Layanan">Layanan</a></li>
-                        <li><a href="#pricing" data-en="Pricing" data-id="Harga">Harga</a></li>
-                        <li><a href="#contact" data-en="Contact" data-id="Kontak">Kontak</a></li>
+                        <li><a href="about.html" data-en="About" data-id="Tentang">Tentang</a></li>
+                        <li><a href="services.html" data-en="Services" data-id="Layanan">Layanan</a></li>
+                        <li><a href="pricing.html" data-en="Pricing" data-id="Harga">Harga</a></li>
+                        <li><a href="contact.html" data-en="Contact" data-id="Kontak">Kontak</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
