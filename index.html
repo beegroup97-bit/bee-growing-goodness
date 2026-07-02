@@ -16,12 +16,12 @@
                 <span>Bee Group</span>
             </div>
             <ul class="nav-menu" id="navMenu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">Tentang</a></li>
-                <li><a href="#services">Layanan</a></li>
-                <li><a href="#features">Fitur</a></li>
-                <li><a href="#testimonials">Testimoni</a></li>
-                <li><a href="#contact">Kontak</a></li>
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-info-circle"></i> Tentang</a></li>
+                <li><a href="#services"><i class="fas fa-briefcase"></i> Layanan</a></li>
+                <li><a href="#features"><i class="fas fa-star"></i> Fitur</a></li>
+                <li><a href="#testimonials"><i class="fas fa-comments"></i> Testimoni</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Kontak</a></li>
                 <li><a href="#" class="lang-toggle" onclick="toggleLanguage()">EN</a></li>
             </ul>
             <div class="hamburger" id="hamburger">
@@ -36,7 +36,10 @@
     <section class="hero" id="home">
         <div class="container">
             <div class="hero-content">
-                <h1 data-en="Sustainable Investment Management" data-id="Manajemen Investasi Berkelanjutan">Manajemen Investasi Berkelanjutan</h1>
+                <div class="section-header">
+                    <i class="fas fa-home section-icon"></i>
+                    <h1 data-en="Sustainable Investment Management" data-id="Manajemen Investasi Berkelanjutan">Manajemen Investasi Berkelanjutan</h1>
+                </div>
                 <p data-en="Build wealth while protecting the planet. Expert financial guidance for sustainable growth." data-id="Bangun kekayaan sambil melindungi planet. Panduan keuangan ahli untuk pertumbuhan berkelanjutan.">Bangun kekayaan sambil melindungi planet. Panduan keuangan ahli untuk pertumbuhan berkelanjutan.</p>
                 <div class="cta-buttons">
                     <button class="btn btn-primary" onclick="scrollToSection('contact')" data-en="Get Started" data-id="Mulai Sekarang">Mulai Sekarang</button>
@@ -54,7 +57,10 @@
     <!-- About Section -->
     <section class="about" id="about">
         <div class="container">
-            <h2 data-en="About Bee Group" data-id="Tentang Bee Group">Tentang Bee Group</h2>
+            <div class="section-header-center">
+                <i class="fas fa-info-circle section-icon"></i>
+                <h2 data-en="About Bee Group" data-id="Tentang Bee Group">Tentang Bee Group</h2>
+            </div>
             <div class="about-content">
                 <div class="about-text">
                     <p data-en="Bee Group is a leading sustainable investment and finance management firm dedicated to creating positive impact while generating returns for our clients." data-id="Bee Group adalah perusahaan manajemen investasi dan keuangan berkelanjutan terkemuka yang berdedikasi untuk menciptakan dampak positif sambil menghasilkan keuntungan bagi klien kami.">Bee Group adalah perusahaan manajemen investasi dan keuangan berkelanjutan terkemuka yang berdedikasi untuk menciptakan dampak positif sambil menghasilkan keuntungan bagi klien kami.</p>
@@ -62,14 +68,23 @@
                 </div>
                 <div class="about-stats">
                     <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-dollar-sign"></i>
+                        </div>
                         <h3>$5B+</h3>
                         <p data-en="Assets Managed" data-id="Aset yang Dikelola">Aset yang Dikelola</p>
                     </div>
                     <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
                         <h3>10K+</h3>
                         <p data-en="Happy Clients" data-id="Klien Puas">Klien Puas</p>
                     </div>
                     <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
                         <h3>15+</h3>
                         <p data-en="Years Experience" data-id="Tahun Pengalaman">Tahun Pengalaman</p>
                     </div>
@@ -81,7 +96,10 @@
     <!-- Services Section -->
     <section class="services" id="services">
         <div class="container">
-            <h2 data-en="Our Services" data-id="Layanan Kami">Layanan Kami</h2>
+            <div class="section-header-center">
+                <i class="fas fa-briefcase section-icon"></i>
+                <h2 data-en="Our Services" data-id="Layanan Kami">Layanan Kami</h2>
+            </div>
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">
@@ -132,7 +150,10 @@
     <!-- Features Section -->
     <section class="features" id="features">
         <div class="container">
-            <h2 data-en="Why Choose Bee Group?" data-id="Mengapa Memilih Bee Group?">Mengapa Memilih Bee Group?</h2>
+            <div class="section-header-center">
+                <i class="fas fa-star section-icon"></i>
+                <h2 data-en="Why Choose Bee Group?" data-id="Mengapa Memilih Bee Group?">Mengapa Memilih Bee Group?</h2>
+            </div>
             <div class="features-grid">
                 <div class="feature-item">
                     <div class="feature-icon">
@@ -183,9 +204,21 @@
     <!-- Testimonials Section -->
     <section class="testimonials" id="testimonials">
         <div class="container">
-            <h2 data-en="What Our Clients Say" data-id="Apa Kata Klien Kami">Apa Kata Klien Kami</h2>
+            <div class="section-header-center">
+                <i class="fas fa-comments section-icon"></i>
+                <h2 data-en="What Our Clients Say" data-id="Apa Kata Klien Kami">Apa Kata Klien Kami</h2>
+            </div>
             <div class="testimonials-grid">
                 <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="client-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div>
+                            <h4>John Smith</h4>
+                            <span data-en="Entrepreneur" data-id="Pengusaha">Pengusaha</span>
+                        </div>
+                    </div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -194,10 +227,17 @@
                         <i class="fas fa-star"></i>
                     </div>
                     <p data-en="\"Bee Group transformed my investment strategy. Highly recommended!\"" data-id="\"Bee Group mengubah strategi investasi saya. Sangat direkomendasikan!\"">\"Bee Group mengubah strategi investasi saya. Sangat direkomendasikan!\"</p>
-                    <h4>John Smith</h4>
-                    <span data-en="Entrepreneur" data-id="Pengusaha">Pengusaha</span>
                 </div>
                 <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="client-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div>
+                            <h4>Sarah Johnson</h4>
+                            <span data-en="Business Manager" data-id="Manajer Bisnis">Manajer Bisnis</span>
+                        </div>
+                    </div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -206,10 +246,17 @@
                         <i class="fas fa-star"></i>
                     </div>
                     <p data-en="\"Excellent service and transparent communication throughout the process.\"" data-id="\"Layanan luar biasa dan komunikasi transparan sepanjang proses.\"">\"Layanan luar biasa dan komunikasi transparan sepanjang proses.\"</p>
-                    <h4>Sarah Johnson</h4>
-                    <span data-en="Business Manager" data-id="Manajer Bisnis">Manajer Bisnis</span>
                 </div>
                 <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="client-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div>
+                            <h4>Michael Chen</h4>
+                            <span data-en="Investor" data-id="Investor">Investor</span>
+                        </div>
+                    </div>
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -218,8 +265,6 @@
                         <i class="fas fa-star"></i>
                     </div>
                     <p data-en="\"I love that my investments align with my environmental values.\"" data-id="\"Saya suka bahwa investasi saya sejalan dengan nilai lingkungan saya.\"">\"Saya suka bahwa investasi saya sejalan dengan nilai lingkungan saya.\"</p>
-                    <h4>Michael Chen</h4>
-                    <span data-en="Investor" data-id="Investor">Investor</span>
                 </div>
             </div>
         </div>
@@ -228,7 +273,10 @@
     <!-- Pricing Section -->
     <section class="pricing" id="pricing">
         <div class="container">
-            <h2 data-en="Our Pricing Plans" data-id="Paket Harga Kami">Paket Harga Kami</h2>
+            <div class="section-header-center">
+                <i class="fas fa-tag section-icon"></i>
+                <h2 data-en="Our Pricing Plans" data-id="Paket Harga Kami">Paket Harga Kami</h2>
+            </div>
             <div class="pricing-grid">
                 <div class="pricing-card">
                     <h3 data-en="Starter" data-id="Pemula">Pemula</h3>
@@ -281,7 +329,10 @@
     <!-- Contact Section -->
     <section class="contact" id="contact">
         <div class="container">
-            <h2 data-en="Get Started Today" data-id="Mulai Hari Ini">Mulai Hari Ini</h2>
+            <div class="section-header-center">
+                <i class="fas fa-envelope section-icon"></i>
+                <h2 data-en="Get Started Today" data-id="Mulai Hari Ini">Mulai Hari Ini</h2>
+            </div>
             <div class="contact-content">
                 <form class="contact-form" id="contactForm">
                     <div class="form-group">
