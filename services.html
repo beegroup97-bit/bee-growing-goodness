@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Bee Group</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <span>Bee Group</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> Tentang</a></li>
+                <li><a href="services.html"><i class="fas fa-briefcase"></i> Layanan</a></li>
+                <li><a href="features.html"><i class="fas fa-star"></i> Fitur</a></li>
+                <li><a href="testimonials.html"><i class="fas fa-comments"></i> Testimoni</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Kontak</a></li>
+                <li><a href="#" class="lang-toggle" onclick="toggleLanguage()">EN</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="section-header-center">
+                <i class="fas fa-briefcase section-icon"></i>
+                <h1 data-en="Our Services" data-id="Layanan Kami">Layanan Kami</h1>
+                <p data-en="Comprehensive Financial Solutions for Your Needs" data-id="Solusi Keuangan Komprehensif untuk Kebutuhan Anda">Solusi Keuangan Komprehensif untuk Kebutuhan Anda</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Full List -->
+    <section class="services-full">
+        <div class="container">
+            <div class="service-detail-card">
+                <div class="service-detail-header">
+                    <i class="fas fa-piggy-bank"></i>
+                    <h2 data-en="Investment Management" data-id="Manajemen Investasi">Manajemen Investasi</h2>
+                </div>
+                <div class="service-detail-content">
+                    <p data-en="Our comprehensive investment management services are tailored to your specific goals, risk tolerance, and time horizon. We use advanced analytics and market research to build and maintain diversified portfolios that deliver consistent returns." data-id="Layanan manajemen investasi komprehensif kami disesuaikan dengan tujuan spesifik, toleransi risiko, dan horizon waktu Anda. Kami menggunakan analitik canggih dan penelitian pasar untuk membangun dan memelihara portofolio yang terdiversifikasi dengan baik yang memberikan hasil yang konsisten.">Layanan manajemen investasi komprehensif kami disesuaikan dengan tujuan spesifik, toleransi risiko, dan horizon waktu Anda. Kami menggunakan analitik canggih dan penelitian pasar untuk membangun dan memelihara portofolio yang terdiversifikasi dengan baik yang memberikan hasil yang konsisten.</p>
+                    <h4 data-en="Key Features:" data-id="Fitur Utama:">Fitur Utama:</h4>
+                    <ul>
+                        <li data-en="Personalized investment strategies" data-id="Strategi investasi yang dipersonalisasi">Strategi investasi yang dipersonalisasi</li>
+                        <li data-en="Regular portfolio rebalancing" data-id="Penyeimbangan kembali portofolio secara teratur">Penyeimbangan kembali portofolio secara teratur</li>
+                        <li data-en="Risk assessment and management" data-id="Penilaian dan manajemen risiko">Penilaian dan manajemen risiko</li>
+                        <li data-en="Quarterly performance reports" data-id="Laporan kinerja triwulanan">Laporan kinerja triwulanan</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-detail-card">
+                <div class="service-detail-header">
+                    <i class="fas fa-trending-up"></i>
+                    <h2 data-en="Trading & Portfolio Optimization" data-id="Trading & Optimisasi Portofolio">Trading & Optimisasi Portofolio</h2>
+                </div>
+                <div class="service-detail-content">
+                    <p data-en="We provide active trading services and portfolio optimization using cutting-edge technology and proprietary trading algorithms. Our team of experienced traders monitors market conditions 24/7 to identify opportunities and execute trades efficiently." data-id="Kami menyediakan layanan perdagangan aktif dan optimisasi portofolio menggunakan teknologi mutakhir dan algoritma perdagangan proprietary. Tim trader berpengalaman kami memantau kondisi pasar 24/7 untuk mengidentifikasi peluang dan melaksanakan perdagangan secara efisien.">Kami menyediakan layanan perdagangan aktif dan optimisasi portofolio menggunakan teknologi mutakhir dan algoritma perdagangan proprietary. Tim trader berpengalaman kami memantau kondisi pasar 24/7 untuk mengidentifikasi peluang dan melaksanakan perdagangan secara efisien.</p>
+                    <h4 data-en="Key Features:" data-id="Fitur Utama:">Fitur Utama:</h4>
+                    <ul>
+                        <li data-en="Real-time market analysis" data-id="Analisis pasar real-time">Analisis pasar real-time</li>
+                        <li data-en="Advanced trading algorithms" data-id="Algoritma perdagangan canggih">Algoritma perdagangan canggih</li>
+                        <li data-en="Low-cost execution" data-id="Eksekusi biaya rendah">Eksekusi biaya rendah</li>
+                        <li data-en="Tax-efficient trading strategies" data-id="Strategi perdagangan yang efisien pajak">Strategi perdagangan yang efisien pajak</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-detail-card">
+                <div class="service-detail-header">
+                    <i class="fas fa-globe"></i>
+                    <h2 data-en="Sustainable Finance" data-id="Keuangan Berkelanjutan">Keuangan Berkelanjutan</h2>
+                </div>
+                <div class="service-detail-content">
+                    <p data-en="Our sustainable finance solutions focus on environmental, social, and governance (ESG) factors. We invest in companies and funds that demonstrate strong ESG practices while delivering competitive financial returns." data-id="Solusi keuangan berkelanjutan kami fokus pada faktor lingkungan, sosial, dan tata kelola (ESG). Kami berinvestasi di perusahaan dan dana yang menunjukkan praktik ESG yang kuat sambil memberikan hasil keuangan yang kompetitif.">Solusi keuangan berkelanjutan kami fokus pada faktor lingkungan, sosial, dan tata kelola (ESG). Kami berinvestasi di perusahaan dan dana yang menunjukkan praktik ESG yang kuat sambil memberikan hasil keuangan yang kompetitif.</p>
+                    <h4 data-en="Key Features:" data-id="Fitur Utama:">Fitur Utama:</h4>
+                    <ul>
+                        <li data-en="ESG-focused investment strategies" data-id="Strategi investasi yang berfokus pada ESG">Strategi investasi yang berfokus pada ESG</li>
+                        <li data-en="Green and social bond investments" data-id="Investasi obligasi hijau dan sosial">Investasi obligasi hijau dan sosial</li>
+                        <li data-en="Impact measurement and reporting" data-id="Pengukuran dampak dan pelaporan">Pengukuran dampak dan pelaporan</li>
+                        <li data-en="Shareholder advocacy on ESG issues" data-id="Advokasi pemegang saham tentang isu ESG">Advokasi pemegang saham tentang isu ESG</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-detail-card">
+                <div class="service-detail-header">
+                    <i class="fas fa-handshake"></i>
+                    <h2 data-en="Financial Planning" data-id="Perencanaan Keuangan">Perencanaan Keuangan</h2>
+                </div>
+                <div class="service-detail-content">
+                    <p data-en="We offer comprehensive financial planning services to help you achieve your long-term financial goals. Our certified financial planners work with you to develop a personalized plan covering all aspects of your financial life." data-id="Kami menawarkan layanan perencanaan keuangan komprehensif untuk membantu Anda mencapai tujuan keuangan jangka panjang. Perencana keuangan bersertifikat kami bekerja dengan Anda untuk mengembangkan rencana yang dipersonalisasi yang mencakup semua aspek kehidupan keuangan Anda.">Kami menawarkan layanan perencanaan keuangan komprehensif untuk membantu Anda mencapai tujuan keuangan jangka panjang. Perencana keuangan bersertifikat kami bekerja dengan Anda untuk mengembangkan rencana yang dipersonalisasi yang mencakup semua aspek kehidupan keuangan Anda.</p>
+                    <h4 data-en="Key Features:" data-id="Fitur Utama:">Fitur Utama:</h4>
+                    <ul>
+                        <li data-en="Comprehensive financial needs analysis" data-id="Analisis kebutuhan keuangan yang komprehensif">Analisis kebutuhan keuangan yang komprehensif</li>
+                        <li data-en="Retirement planning" data-id="Perencanaan pensiun">Perencanaan pensiun</li>
+                        <li data-en="Tax planning and optimization" data-id="Perencanaan dan optimisasi pajak">Perencanaan dan optimisasi pajak</li>
+                        <li data-en="Estate planning" data-id="Perencanaan warisan">Perencanaan warisan</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-detail-card">
+                <div class="service-detail-header">
+                    <i class="fas fa-shield-alt"></i>
+                    <h2 data-en="Risk Management" data-id="Manajemen Risiko">Manajemen Risiko</h2>
+                </div>
+                <div class="service-detail-content">
+                    <p data-en="Our risk management services help protect your investments and minimize potential losses. We employ sophisticated risk analysis tools and hedging strategies to manage volatility and protect your portfolio against market downturns." data-id="Layanan manajemen risiko kami membantu melindungi investasi Anda dan meminimalkan potensi kerugian. Kami menggunakan alat analisis risiko canggih dan strategi lindung nilai untuk mengelola volatilitas dan melindungi portofolio Anda dari penurunan pasar.">Layanan manajemen risiko kami membantu melindungi investasi Anda dan meminimalkan potensi kerugian. Kami menggunakan alat analisis risiko canggih dan strategi lindung nilai untuk mengelola volatilitas dan melindungi portofolio Anda dari penurunan pasar.</p>
+                    <h4 data-en="Key Features:" data-id="Fitur Utama:">Fitur Utama:</h4>
+                    <ul>
+                        <li data-en="Risk assessment and profiling" data-id="Penilaian dan pemrofilan risiko">Penilaian dan pemrofilan risiko</li>
+                        <li data-en="Hedging strategies" data-id="Strategi lindung nilai">Strategi lindung nilai</li>
+                        <li data-en="Portfolio insurance" data-id="Asuransi portofolio">Asuransi portofolio</li>
+                        <li data-en="Stress testing and scenario analysis" data-id="Pengujian stres dan analisis skenario">Pengujian stres dan analisis skenario</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-detail-card">
+                <div class="service-detail-header">
+                    <i class="fas fa-headset"></i>
+                    <h2 data-en="24/7 Client Support" data-id="Dukungan Klien 24/7">Dukungan Klien 24/7</h2>
+                </div>
+                <div class="service-detail-content">
+                    <p data-en="Our dedicated client support team is available 24/7 to answer your questions and assist with your accounts. Whether you need account information, want to discuss your portfolio, or have technical issues, we're here to help." data-id="Tim dukungan klien khusus kami tersedia 24/7 untuk menjawab pertanyaan Anda dan membantu dengan akun Anda. Baik Anda membutuhkan informasi akun, ingin mendiskusikan portofolio Anda, atau memiliki masalah teknis, kami siap membantu.">Tim dukungan klien khusus kami tersedia 24/7 untuk menjawab pertanyaan Anda dan membantu dengan akun Anda. Baik Anda membutuhkan informasi akun, ingin mendiskusikan portofolio Anda, atau memiliki masalah teknis, kami siap membantu.</p>
+                    <h4 data-en="Key Features:" data-id="Fitur Utama:">Fitur Utama:</h4>
+                    <ul>
+                        <li data-en="Phone, email, and chat support" data-id="Dukungan telepon, email, dan chat">Dukungan telepon, email, dan chat</li>
+                        <li data-en="Multilingual support team" data-id="Tim dukungan multibahasa">Tim dukungan multibahasa</li>
+                        <li data-en="Fast response times" data-id="Waktu respons cepat">Waktu respons cepat</li>
+                        <li data-en="Account management assistance" data-id="Bantuan manajemen akun">Bantuan manajemen akun</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 data-en="Ready to Get Started?" data-id="Siap untuk Memulai?">Siap untuk Memulai?</h2>
+            <p data-en="Choose the services that fit your needs and start your investment journey with Bee Group today" data-id="Pilih layanan yang sesuai dengan kebutuhan Anda dan mulai perjalanan investasi Anda dengan Bee Group hari ini">Pilih layanan yang sesuai dengan kebutuhan Anda dan mulai perjalanan investasi Anda dengan Bee Group hari ini</p>
+            <a href="contact.html" class="btn btn-primary btn-large" data-en="Schedule Consultation" data-id="Jadwalkan Konsultasi">Jadwalkan Konsultasi</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Bee Group</h4>
+                    <p data-en="Building sustainable wealth for a better future." data-id="Membangun kekayaan berkelanjutan untuk masa depan yang lebih baik.">Membangun kekayaan berkelanjutan untuk masa depan yang lebih baik.</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Quick Links" data-id="Tautan Cepat">Tautan Cepat</h4>
+                    <ul>
+                        <li><a href="about.html" data-en="About" data-id="Tentang">Tentang</a></li>
+                        <li><a href="services.html" data-en="Services" data-id="Layanan">Layanan</a></li>
+                        <li><a href="pricing.html" data-en="Pricing" data-id="Harga">Harga</a></li>
+                        <li><a href="contact.html" data-en="Contact" data-id="Kontak">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-en="Follow Us" data-id="Ikuti Kami">Ikuti Kami</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-en="&copy; 2024 Bee Group. All rights reserved." data-id="&copy; 2024 Bee Group. Semua hak dilindungi.">&copy; 2024 Bee Group. Semua hak dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
